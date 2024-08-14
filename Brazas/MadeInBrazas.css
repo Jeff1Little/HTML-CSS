@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+/*fonte da made in brazas*/
+@font-face {
+    font-family:'eng' ;
+    src: url("OPTIEngraversOldEnglish.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*fonte da made in brazas*/
+
+/*
+body{
+    background-color: rgb(255, 255, 255);  
+    text-align: center;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-family:"Abril Fatface", serif ;
+    font-weight: 400;
+    font-style: normal;    
+}
+img{
+    width: 300px;
+    height: 200px;
+    
+
+}
+h1{
+    font-family: "eng";
+    font-weight: 800;
+    font-size: 3em;
+}
+h2{
+    font-family: 'eng';
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+h1#MadeInBrazas{
+    color: rgb(0, 136, 255);
+    
+}
+
+.SP{
+    color: rgb(177, 27, 27);
+}
+
+.basico{color: blue;}
+.intermediario{color: green;}
+.avançado{color: blueviolet;}
+.tt{
+    background-color: rgb(63, 63, 63);
+    color: white;
+    border-radius: 15px;
+}
+*/
+div{
+    background-color: rgb(129, 129, 129);
+    text-align: center;
+    color: white;
+    width: 50px;
+    height:1000px;
+}
+
+div:hover{
+    background-color: purple;
+    width: 300px;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation: 2s;
+}
+
+div > p{
+    display: none;
+
+}
+
+div:hover > p{
+    display: block;
+    
+
+}
